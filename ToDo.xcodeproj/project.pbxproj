@@ -14,6 +14,7 @@
 		274E90181B2F85EB0081CA82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274E90171B2F85EB0081CA82 /* Images.xcassets */; };
 		274E901B1B2F85EB0081CA82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 274E90191B2F85EB0081CA82 /* LaunchScreen.xib */; };
 		274E90271B2F85EB0081CA82 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E90261B2F85EB0081CA82 /* ToDoTests.swift */; };
+		274E90311B2F875E0081CA82 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E90301B2F875E0081CA82 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		274E90201B2F85EB0081CA82 /* ToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		274E90251B2F85EB0081CA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274E90261B2F85EB0081CA82 /* ToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTests.swift; sourceTree = "<group>"; };
+		274E90301B2F875E0081CA82 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				274E900E1B2F85EB0081CA82 /* AppDelegate.swift */,
 				274E90101B2F85EB0081CA82 /* FirstViewController.swift */,
 				274E90121B2F85EB0081CA82 /* SecondViewController.swift */,
+				274E90301B2F875E0081CA82 /* Task.swift */,
 				274E90141B2F85EB0081CA82 /* Main.storyboard */,
 				274E90171B2F85EB0081CA82 /* Images.xcassets */,
 				274E90191B2F85EB0081CA82 /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274E90311B2F875E0081CA82 /* Task.swift in Sources */,
 				274E90131B2F85EB0081CA82 /* SecondViewController.swift in Sources */,
 				274E900F1B2F85EB0081CA82 /* AppDelegate.swift in Sources */,
 				274E90111B2F85EB0081CA82 /* FirstViewController.swift in Sources */,
